@@ -108,7 +108,7 @@ if (isMobile()) {
 }
 if (!ext.supportLinearFiltering) {
     config.DYE_RESOLUTION = 1024;
-    config.SHADING = true;
+    config.SHADING = false;
     config.BLOOM = false;
     config.SUNRAYS = false:
 }
